@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{392491E9-2125-4D51-91B6-DD3183FEF5DF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Project_Folder_Browser_WinForm</RootNamespace>
+    <RootNamespace>ProjectFolderBrowserWinForm</RootNamespace>
     <AssemblyName>Project-Folder-Browser-WinForm</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -60,6 +60,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
