@@ -46,6 +46,14 @@
     <Compile Include="Actions\ICompile.cs" />
     <Compile Include="Actions\IExecute.cs" />
     <Compile Include="Actions\IResolve.cs" />
+    <Compile Include="DataTypes\TreeNode.cs" />
+    <Compile Include="FileTypes\CSharpFile.cs" />
+    <Compile Include="FileTypes\FileObject.cs" />
+    <Compile Include="FileTypes\HtmlFile.cs" />
+    <Compile Include="FileTypes\ImageIndices.cs" />
+    <Compile Include="FileTypes\TextFile.cs" />
+    <Compile Include="FileTypes\WordFile.cs" />
+    <Compile Include="FileTypes\ZipFile.cs" />
     <Compile Include="Menu\IMenuProvider.cs" />
     <Compile Include="Menu\MenuProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

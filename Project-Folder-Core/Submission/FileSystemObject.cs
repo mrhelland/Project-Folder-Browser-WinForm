@@ -13,10 +13,10 @@ namespace ProjectFolderCore.Submission {
         public TreeNode GetTreeNode() {
             return null;
         }
-        int GetImageIndex() {
+        public int GetImageIndex() {
             return 0;
         }
-        object GetInfo() {
+        public object GetInfo() {
             return null;
         }
     }
