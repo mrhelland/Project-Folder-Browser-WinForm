@@ -5,11 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ProjectFolderCore.Actions {
-    interface ICompile {
-        void Compile();
-        void Execute();
-        void Edit();
-        void View();
-        void FolderBrowse();
+    interface IFileOpen {
+        bool Open();
+        bool Close();
     }
 }

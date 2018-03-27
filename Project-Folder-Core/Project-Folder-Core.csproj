@@ -46,6 +46,8 @@
     <Compile Include="Actions\ICompile.cs" />
     <Compile Include="Actions\IExecute.cs" />
     <Compile Include="Actions\IResolve.cs" />
+    <Compile Include="Actions\IFileOpen.cs" />
+    <Compile Include="Actions\ITextEdit.cs" />
     <Compile Include="DataTypes\TreeNode.cs" />
     <Compile Include="FileTypes\CSharpFile.cs" />
     <Compile Include="FileTypes\FileObject.cs" />

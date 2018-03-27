@@ -5,10 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Reflection;
+using ProjectFolderCore.Actions;
+using System.Diagnostics;
 
 namespace ProjectFolderCore.FileTypes {
-    public class FileObject {
+    public class FileObject : IFileOpen {
         private FileInfo _file;
+        private Process _process;
 
         public virtual int ImageIndex {
             get {
@@ -35,7 +38,28 @@ namespace ProjectFolderCore.FileTypes {
             }
             return new FileObject(f);
         }
+
+        public bool Open() {
+            if(_process != null) {
+                try {
+                    _process = Process.Start(_file.FullName);
+                    return true;
+                }
+                catch {
+                    return false;
+                }
+            }
+            return false;
+        }
+
+        public bool Close() {
+            if(_process != null) {
+                _process.Kill();
+                _process.WaitForExit();
+                _process = null;
+                return true;
+            }
+            return false;
+        }
     }
-
-
 }

@@ -8,7 +8,7 @@ namespace ProjectFolderCore.Actions {
     interface IBrowse {
         void Browse();
         void Edit();
-        void ViewSource();
+        void View();
         void FolderBrowse();
     }
 }
