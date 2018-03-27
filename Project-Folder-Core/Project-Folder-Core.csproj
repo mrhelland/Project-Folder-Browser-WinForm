@@ -73,5 +73,31 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WinApi\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FileTypes\Icons\avi.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\cs.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\csproj.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\default.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\exe.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\folder_closed.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\folder_open.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\gif.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\htm.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\html.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\jpg.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\mov.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\mp3.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\mp4.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\png.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\sln.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\txt.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\unknown.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\vb.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\vbproj.ico" />
+    <EmbeddedResource Include="FileTypes\Icons\wav.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
