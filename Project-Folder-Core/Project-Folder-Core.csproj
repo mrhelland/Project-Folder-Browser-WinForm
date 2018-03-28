@@ -50,8 +50,15 @@
     <Compile Include="Actions\ITextEdit.cs" />
     <Compile Include="DataTypes\TreeNode.cs" />
     <Compile Include="FileTypes\CSharpFile.cs" />
+    <Compile Include="FileTypes\FileIcon.cs" />
+    <Compile Include="FileTypes\FileIconCollection.cs" />
     <Compile Include="FileTypes\FileObject.cs" />
     <Compile Include="FileTypes\HtmlFile.cs" />
+    <Compile Include="FileTypes\Icons\Icons.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Icons.resx</DependentUpon>
+    </Compile>
     <Compile Include="FileTypes\ImageIndices.cs" />
     <Compile Include="FileTypes\TextFile.cs" />
     <Compile Include="FileTypes\WordFile.cs" />
@@ -68,6 +75,10 @@
     <Compile Include="Submission\FolderObject.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FileTypes\Icons\Icons.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Icons.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -82,8 +93,6 @@
     <EmbeddedResource Include="FileTypes\Icons\csproj.ico" />
     <EmbeddedResource Include="FileTypes\Icons\default.ico" />
     <EmbeddedResource Include="FileTypes\Icons\exe.ico" />
-    <EmbeddedResource Include="FileTypes\Icons\folder_closed.ico" />
-    <EmbeddedResource Include="FileTypes\Icons\folder_open.ico" />
     <EmbeddedResource Include="FileTypes\Icons\gif.ico" />
     <EmbeddedResource Include="FileTypes\Icons\htm.ico" />
     <EmbeddedResource Include="FileTypes\Icons\html.ico" />

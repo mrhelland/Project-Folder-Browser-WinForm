@@ -32,6 +32,8 @@ namespace Project_Folder_Browser_WinForm {
             Console.WriteLine(f3.ToString());
             Console.WriteLine(f4.ToString());
 
+            FileIconCollection fic = new FileIconCollection();
+
         }
     }
 }
